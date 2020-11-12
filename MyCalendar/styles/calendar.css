@@ -1,0 +1,134 @@
+html, body{
+    height: 100%;
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/1124103.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    background-color: thistle;
+}
+
+
+.section{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#section-list{
+    width: 59%;
+    height: 100%;
+}
+    
+   
+
+
+#btnShowDetails{
+    margin-left: 45rem;
+    margin-top: 1rem;
+} 
+
+
+
+#section-form{
+    width: 39%;
+    background-color: teal;
+    margin-left:24px;
+    height: 100%;
+
+}
+
+h4{
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+h5{
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+
+.control{
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 5px;
+    width: 98%;
+}
+
+h3{
+    text-align: center;
+    color:white;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 1rem;
+}
+
+#btn-save{
+    margin-left: 4px;
+}
+
+#iconImp{
+    font-size: 18px;
+    float: right;
+    margin-right: 10px;
+    color: brown;
+}
+
+#iconImp.fas{
+    color: blue;
+    
+}
+
+.task{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: thistle;
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    height: 15vh;
+}
+
+.task-section{
+    flex: 2;
+    margin-right: 30px;
+    
+}
+
+.far{
+    flex: 1;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.task-desc{
+    flex: 5;
+}
+
+
+#pendingTasks{
+    font-family: fantasy;
+    color:navy;
+    font-size: 18px;
+}
+
+.fa-trash{
+    color: gray;
+    padding-left: 12rem;
+    padding-top: 6rem;
+    cursor: pointer;
+}
+
+.fa-trash:hover{
+    color: red;
+}
+
+
